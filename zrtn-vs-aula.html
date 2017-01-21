@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="refresh" content="10" >
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		function changeSize() {
+    var width = parseInt($("#Width").val());
+    var height = parseInt($("#Height").val());
+
+    $("#Demo").width(width).height(height);
+
+    // update scrollbars
+    $('#Demo').perfectScrollbar('update');
+
+    // or even with vanilla JS!
+    Ps.update(document.getElementById('Demo'));
+}
+
+$(function() {
+    $('#Demo').perfectScrollbar();
+
+    // with vanilla JS!
+    Ps.initialize(document.getElementById('Demo'));
+});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+	<link rel='stylesheet' id='rookie-framework-style-css'  href='https://www.balonmanozaratan.com/wp-content/themes/rookie/framework.css?ver=4.7.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='rookie-style-css'  href='https://www.balonmanozaratan.com/wp-content/themes/rookie/style.css?ver=4.7.1' type='text/css' media='all' />
+	<style type="text/css">
+		body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+        footer {
+            background-color: #607D8B;
+            width: 100%;
+            bottom: 0;
+            position: relative;
+
+#load
+{
+    padding:20px;
+}
+
+	</style>
+</head>
+
+
+
+<!-- Page preloader 
+        <div id="hola">
+        <div id="preloader">
+        <span></span>
+        <span></span>
+          </div>
+            </div>
+            -->
+
+<div class="page-wrap">
+<table style="width: 75%; margin-left: auto; margin-right: auto;">
+<tbody>
+
+<!-- Informacion -->
+<tr style="height: 23px;">
+<td style="width: 58px; height: 23px;">&nbsp;Equipo</td>
+<td style="width: 358px; height: 23px;">Jugador</td>
+<td style="width: 63px; height: 23px;">Se&ntilde;al</td>
+<td style="width: 55px; height: 23px;">Minuto</td>
+</tr>
+<!-- fin Info. --> 
+
+<!-- Empezar a partir de aqui --> 
+
+<!-- Inicio -->
+<tr style="height: 64px;">
+<td style="width: 58px; height: 64px;"><img src="https://pbs.twimg.com/profile_images/422813304512196608/AYv4B7N9_400x400.jpeg" width="50" height="50"></td>
+<td style="width: 358px; height: 64px;">Inicio del partido</td>
+<td style="width: 63px; height: 64px;"><img src="https://image.flaticon.com/icons/svg/74/74118.svg" alt="" width="50" height="50" /></td>
+<td style="width: 55px; height: 64px;">&nbsp;00:00</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+<script src="js/index.js"></script>
+ 
+    <footer>
+    <font color="white">Desarrollado por DeValladolid</font>
+    </footer>
